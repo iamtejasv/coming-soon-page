@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+
+body,
+html {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: "Hind Siliguri", sans-serif;
+  height: 100%;
+}
+
+img {
+  height: 300px;
+}
+
+.container {
+  background: linear-gradient(135deg, #8b468b, #4f4fa8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 340px;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="email"] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #7652be;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #a861d3;
+}
